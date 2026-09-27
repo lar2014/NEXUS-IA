@@ -1,0 +1,19 @@
+{
+  "name": "nexus-cloud",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Nexus Cloud — backend TypeScript modular para Vercel Serverless Functions. Ver ../README.md y ../../NEXUS_CLOUD_ARCHITECTURE.md.",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "dev": "vercel dev"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.45.4"
+  },
+  "devDependencies": {
+    "@vercel/node": "^3.2.7",
+    "typescript": "^5.5.4",
+    "@types/node": "^20.14.15"
+  }
+}
